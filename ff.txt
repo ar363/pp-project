@@ -1,0 +1,2 @@
+ffmpeg -framerate 30 -i frames/frame_%04d.ppm -c:v libx264 -pix_fmt yuv420p heat_diffusion.mp4
+
